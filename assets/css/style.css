@@ -494,10 +494,13 @@ button {
   overflow: hidden;
   border: 1px solid var(--card-color);
   align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .article__image img {
-  width: 100%;
+  width: auto;
   height: 100%;
   object-fit: cover;
   object-position: center;
