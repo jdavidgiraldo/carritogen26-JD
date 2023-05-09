@@ -313,10 +313,15 @@ button {
 .product__image {
   padding: var(--sp-1);
   background-color: var(--card-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .product__image img {
   transition: transform 0.3s ease-in-out;
+  width: auto;
+  height: auto;
 }
 
 .product:hover img {
@@ -330,7 +335,7 @@ button {
   align-items: center;
   background-color: var(--primary-color);
   padding: var(--sp-1-5);
-  min-height: 109px;
+  min-height: 140px;
 }
 
 .product__btn {
