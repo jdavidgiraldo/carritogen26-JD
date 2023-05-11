@@ -345,6 +345,32 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 0.3s ease-in-out, color .3s ease-in-out;
+}
+
+.card__face--front:hover {
+  background-color: #111111bd;
+}
+
+.card__face::before{
+  content: 'click para ver descripción';
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #111111bd;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card__face--front:hover::before{
+  opacity: 1;
 }
 
 .card__face--front img {

@@ -229,6 +229,16 @@ const dataBase = [
     description:
       'Martini de 750 ml \n con notas de sabor a fruta madura a finales del verano como el ciruelas jugosas, higos maduros, naranjas confitadas. también posee notas de roble, canela y avellanas. sabor aterciopelado, rico y persistente.',
   },
+
+  {
+    id: 21,
+    name: 'SUNTORY WHISKY - HIBIKI JAPANESE HARMONY',
+    price: 165,
+    image: 'assets/images/id_21.png',
+    quantity: 2,
+    description:
+      'Mantecoso y cremoso en nariz, con notas herbales frescas de cilantro, vainilla, pasteles horneados, albaricoque y frutas secas, aunque las notas herbales se intensifican con el tiempo. En boca se mezclan sabores de ensalada de frutas frescas, vainilla , miel, dulce de azúcar, cítricos dulces, caramelo y una delicada pimienta. Esta expresión tiene una textura fantástica, que equilibra las frutas suaves, la dulzura del dulce de azúcar y los cítricos, para terminar con melón dulce, azúcar glas y un picante dinámico.'
+  },
 ]
 
 export default dataBase
